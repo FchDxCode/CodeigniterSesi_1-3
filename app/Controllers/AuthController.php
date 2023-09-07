@@ -10,7 +10,7 @@ class AuthController extends BaseController
     {
         $this->model = new \App\Models\User();
     }
-
+ 
     public function registrasi()
     {
         return view('registrasi');
